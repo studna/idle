@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+   viewBox="-20 0 1000 387" xml:space="preserve">
+   <defs>
+    <linearGradient id="bg-l" x1="0.5" y1="1" x2="0.5" y2="0">
+      <stop offset="100%" stop-opacity="0" stop-color="#000">
+        <animate attributeName="offset" values="0;1" repeatCount="1" dur="1.5s" begin="4.5s" fill="freeze"/>
+        <animate attributeName="stop-opacity" values="0;1" repeatCount="1" dur="0.1s" begin="4.5s" fill="freeze"/>
+      </stop>
+      <stop offset="100%" stop-opacity="0" stop-color="#000">
+        <animate attributeName="offset" values="0;1" repeatCount="1" dur="0s" begin="0s" fill="freeze"/>
+      </stop>
+    </linearGradient>
+    <linearGradient id="bg-r" x1="0.5" y1="1" x2="0.5" y2="0">
+      <stop offset="100%" stop-opacity="0" stop-color="#000">
+        <animate attributeName="offset" values="1;0" repeatCount="1" dur="1.5s" begin="4.5s" fill="freeze"/>
+        <animate attributeName="stop-opacity" values="0;1" repeatCount="1" dur="0.1s" begin="4.5s" fill="freeze"/>
+      </stop>
+      <stop offset="100%" stop-opacity="0" stop-color="#000">
+        <animate attributeName="offset" values="1;0" repeatCount="1" dur="1.5s" begin="4.5s" fill="freeze"/>
+        <animate attributeName="stop-opacity" values="0;1" repeatCount="1" dur="0.1s" begin="4.5s" fill="freeze"/>
+      </stop>
+    </linearGradient>
+    <style type="text/css">
+      .st0{fill:#000;}
+      .st1{fill-rule:evenodd;clip-rule:evenodd;fill:url(#lg);stroke:#000;stroke-width:5;stroke-miterlimit:10;}
+      .st2{fill:none;stroke:#000;stroke-width:3;stroke-miterlimit:10;}
+      #arrow-left{
+        fill:url(#bg-l);
+      }
+      #arrow-right{
+        fill:url(#bg-r);
+      }
+    </style>
+    <style xmlns="http://www.w3.org/2000/svg" type="text/css">
+      .st1{
+        stroke-dasharray: 900;
+        stroke-dashoffset: 900;
+        -webkit-animation: dash-st1 3s linear forwards 3s;
+        -o-animation: dash-st1 3s linear forwards 3s;
+        -moz-animation: dash-st1 3s linear forwards 3s;
+        animation: dash-st1 3s linear forwards 3s;
+      }
+
+      @-webkit-keyframes dash-st1{
+        0%
+        {
+          stroke-dashoffset: 900;
+        }
+        50%
+        {
+          stroke-dashoffset: 0;
+        }
+        100%
+        {
+          stroke-dashoffset: 0;
+        }
+      }
+
+      .st2{
+        stroke-dasharray: 200;
+        stroke-dashoffset: 200;
+        -webkit-animation: dash-st2 3s linear forwards 3s;
+        -o-animation: dash-st2 3s linear forwards 3s;
+        -moz-animation: dash-st2 3s linear forwards 3s;
+        animation: dash-st2 3s linear forwards 3s;
+      }
+
+      @-webkit-keyframes dash-st2{
+        0%
+        {
+          stroke-dashoffset: 200;
+        }
+        50%
+        {
+          stroke-dashoffset: 0;
+        }
+        90%
+        {
+          stroke-dashoffset: 200;
+        }
+        100%
+        {
+
+        }
+      }
+    </style>
+  </defs>
+  <rect x="474.82" y="89.6" class="st0" width="39.94" height="224.37"/>
+  <polygon class="st0" points="789.99,89.6 789.99,305.33 750.05,328.4 750.05,89.6 "/>
+  <path class="st0" d="M681.77,73.69v95.45c-12.36-15.91-30.19-30.19-58.46-30.19c-40.9,0-79.54,32.15-79.54,88.95v0.66
+    c0,56.8,39.27,88.95,79.54,88.95c27.94,0,45.81-14.28,58.46-32.15v28.61h39.94V50.62L681.77,73.69z M682.4,228.56
+    c0,3.14-0.22,6.2-0.63,9.15c-3.91,27.68-25.28,45.73-49.05,45.73c-26.61,0-49.35-21.78-49.35-54.88v-0.66
+    c0-34.1,22.4-54.88,49.35-54.88c23.77,0,45.18,17.79,49.05,45.66c0.41,2.95,0.63,6.05,0.63,9.23V228.56z"/>
+  <path class="st0" d="M810.37,228.88v-0.65c0-49.03,34.74-89.29,83.77-89.29c54.55,0,82.16,42.86,82.16,92.22
+    c0,3.57-0.33,7.14-0.65,11.04H849.66c4.22,27.92,24.03,43.51,49.35,43.51c19.16,0,32.8-7.14,46.43-20.46l23.06,20.46
+    c-16.24,19.48-38.64,32.15-70.14,32.15C848.69,317.85,810.37,281.8,810.37,228.88z M937.33,216.21
+    c-2.59-25.33-17.53-45.13-43.51-45.13c-24.03,0-40.92,18.51-44.49,45.13H937.33z"/>
+  <g>
+    <g>
+      <polygon id="arrow-left" class="st1" points="134.05,0 134.05,310.02 0.84,310.02 0,309.54 0,77.39 5.11,74.43"/>
+      <polygon id="arrow-right" class="st1" points="176.98,387 176.98,76.98 310.18,76.98 311.02,77.46 311.02,309.61 305.91,312.57"/>
+    </g>
+    <line class="st2" x1="134.05" y1="0" x2="177.37" y2="78.3"/>
+    <line class="st2" x1="134.05" y1="304.8" x2="176.98" y2="386.21"/>
+    <line class="st2" x1="134.05" y1="0" x2="311.02" y2="77.46"/>
+    <line class="st2" x1="0.84" y1="310.02" x2="176.98" y2="387"/>
+  </g>
+</svg>
